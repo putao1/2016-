@@ -1,0 +1,5 @@
+struct student{
+  char name[21];
+  char score;
+};
+帮助实现按照各自的分数排序后，输出相应的姓名
