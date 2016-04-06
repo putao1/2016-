@@ -1,0 +1,2 @@
+当使用socket()函数和WSASocket()函数创建套接字时，默认都是阻塞的。在创建套接字之后，通过调用ioctlsocket()函数，将该套接字设置为非阻塞模式。
+Linux下的函数是:fcntl().
